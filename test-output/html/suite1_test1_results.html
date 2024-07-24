@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Run On Chrome browser</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Run On Chrome browser</h1>
+<p>
+  Test duration: 473.262s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">liveguruLOCAL.Test_Cases_For_Admin_Role</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_01_Verify_Account_Created_Success
+      </td>
+  <td class="duration">
+    10.320s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Account Created Success - Step 01: click to Account Menu<br />
+                                Verify Account Created Success - Step 02: click to Register Link<br />
+                                Verify Account Created Success - Step 03: enter info<br />
+                                Verify Account Created Success - Step 04: click to Register Button<br />
+                                Verify Account Created Success - Step 05: verify successful register message<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Thank you for registering with Main Website Store] but found [Thank you for registering with Main Website Store.]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:111)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:150)<br />
+              org.testng.Assert.assertEquals(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:656)<br />
+              org.testng.Assert.assertEquals(Assert.java:666)<br />
+              liveguruLOCAL.Test_Cases_For_Admin_Role.TC_01_Verify_Account_Created_Success(Test_Cases_For_Admin_Role.java:53)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_03_Verify_The_Product_Review_Mechanism
+      </td>
+  <td class="duration">
+    31.380s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify The Product Review - Step 01: Navigation to User URL<br />
+                                Verify The Product Review - Step 02: click to Account Menu<br />
+                                Verify The Product Review - Step 03: click to log in link<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;header-account&apos;]//a[text()=&apos;Log In&apos;]/parent::li&quot;}<br/>
+&nbsp; (Session info: chrome=126.0.6478.183)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [f5f72df04a30759776abd448af2c38fe, findElement {value=//div[@id=&apos;header-account&apos;]//a[text()=&apos;Log In&apos;]/parent::li, using=xpath}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50080/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: f5f72df04a30759776abd448af2c38fe</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)<br />
+              commons.BasePage.getWebElement(BasePage.java:142)<br />
+              commons.BasePage.waitForElementClickable(BasePage.java:438)<br />
+              pageObjects.user.HomePageObject.clickToLoginLink(HomePageObject.java:30)<br />
+              liveguruLOCAL.Test_Cases_For_Admin_Role.TC_03_Verify_The_Product_Review_Mechanism(Test_Cases_For_Admin_Role.java:164)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">liveguruLOCAL.Test_Cases_For_User_Role</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_09_Verify_That_You_Are_Able_To_Purchase_Product
+      </td>
+  <td class="duration">
+    49.361s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Purchase Product - Step 01: open live guru home page<br />
+                                Purchase Product - Step 02: Click on Account Menu<br />
+                                Purchase Product - Step 02: Click on My Wish list link<br />
+                                Purchase Product - Step 03: Click on Add All To Cart link<br />
+                                Purchase Product - Step 04: Verify Success Message<br />
+                                -------Passed-------<br />
+                                Purchase Product - Step 05: Fill information United States &amp; New York &amp; 543432m<br />
+                                Purchase Product - Step 06: Click on Estimate Button<br />
+                                Purchase Product - Step 07: Verify Flat Rate Ship Generate<br />
+                                Purchase Product - Step 08: Select Shop Cost<br />
+                                Purchase Product - Step 09: Click on Update Total<br />
+                                Purchase Product - Step 10: Verify Flat Rate Ship Generate At Total<br />
+                                Purchase Product - Step 11: Verify Grand Total<br />
+                                Purchase Product - Step 12: Click To Proceed Checkout Button<br />
+                                Purchase Product - Step 13: enter into Bill Infor<br />
+                                Purchase Product - Step 14: Click To Continue Button<br />
+                                Purchase Product - Step 15: Verify Flat Rate Ship Display At Ship Method<br />
+                                Purchase Product - Step 16: Click To Continue Button<br />
+                                Purchase Product - Step 17: Select Money Order<br />
+                                Purchase Product - Step 18: Click To Continue Button<br />
+                                Purchase Product - Step 19: Click To Place Order Button<br />
+                                Purchase Product - Step 20: Verify The number Order Generated<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(.,&apos;Your order&apos;)]/a (tried for 30 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49854}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49854/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 6ba378eba7d7427bc5c523789eb3137a</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br />
+              commons.BasePage.waitForElementVisible(BasePage.java:418)<br />
+              pageObjects.user.CheckoutPO.isTheOrderNumberGenerated(CheckoutPO.java:47)<br />
+              liveguruLOCAL.Test_Cases_For_User_Role.TC_09_Verify_That_You_Are_Able_To_Purchase_Product(Test_Cases_For_User_Role.java:369)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">liveguruLOCAL.Test_Cases_For_Admin_Role</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_06_Verify_Search_Functionality
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                             <i>Depends on method(s): </i>
+        <span class="dependency">liveguruLOCAL.Test_Cases_For_Admin_Role.TC_01_Verify_Account_Created_Success</span>
+                
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">liveguruLOCAL.Test_Cases_For_Admin_Role</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_02_Verify_Invoice_Can_Be_Printed
+      </td>
+  <td class="duration">
+    87.971s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Invoice Can Be Print - Step 01: Navigation to Admin Url<br />
+                                Verify Invoice Can Be Print: login with admin account<br />
+                                Verify Invoice Can Be Print: click to close popup<br />
+                                Verify Invoice Can Be Print - Step 02: Click to Orders Menu Of Sales<br />
+                                Verify Invoice Can Be Print - Step 03: Select item of Status Drop Down<br />
+                                Verify Invoice Can Be Print - Step 04: Click to Search button<br />
+                                Verify Invoice Can Be Print - Step 05: Click to Checkbox of The First Order<br />
+                                Verify Invoice Can Be Print - Step 06: Select item of Status Drop Down<br />
+                                Verify Invoice Can Be Print - Step 07: Click to Search button<br />
+                                Verify Invoice Can Be Print - Step 08: Verify error message<br />
+                                -------Passed-------<br />
+                                Verify Invoice Can Be Print - Step 09: Select item of Status Drop Down<br />
+                                Verify Invoice Can Be Print - Step 10: Click to Search button<br />
+                                Verify Invoice Can Be Print - Step 11: Click to Checkbox of The First Order<br />
+                                Verify Invoice Can Be Print - Step 12: Select item of Status Drop Down<br />
+                                Verify Invoice Can Be Print - Step 13: Click to Search button<br />
+                                Verify Invoice Can Be Print - Step 14: Wait for download file<br />
+                                Verify Invoice Can Be Print - Step 15: Verify file download success<br />
+                                Verify Invoice Can Be Print - Step 16: Click to Reset filter<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_04_Verify_Sort_Invoice_Is_Working_Correctly
+      </td>
+  <td class="duration">
+    49.973s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Sort Invoice - Step 01: click to Account Menu<br />
+                                Sort Invoice - Step 02 : click to Invoices Menu of Sales Menu<br />
+                                Sort Invoice - Step 03 : click to Invoices Column Name to Sort<br />
+                                Sort Invoice - Step 04 : Verify Des Sort<br />
+                                Sort Invoice - Step 04 : Verify Asc Sort<br />
+                                -------Passed-------<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_05_Verify_Pagination_Functionality
+      </td>
+  <td class="duration">
+    56.220s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Pagination Functionality - Step 01: navigate to Admin Url<br />
+                                Pagination Functionality - Step 02: Click to Orders Menu of Sales<br />
+                                Pagination Functionality - Step 03: Select number View per Page<br />
+                                Pagination Functionality - Step 04: Verify Records Display correct<br />
+                                -------Passed-------<br />
+                                Pagination Functionality - Step 05: Select number View per Page<br />
+                                Pagination Functionality - Step 06: Verify Records Display correct<br />
+                                -------Passed-------<br />
+                                Pagination Functionality - Step 07: Select number View per Page<br />
+                                Pagination Functionality - Step 08: Verify Records Display correct<br />
+                                -------Passed-------<br />
+                                Pagination Functionality - Step 09: Select number View per Page<br />
+                                Pagination Functionality - Step 10: Verify Records Display correct<br />
+                                -------Passed-------<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_07_Verify_Checkbox_Functionality
+      </td>
+  <td class="duration">
+    50.890s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Checkbox Functionality - Step 01: navigate to Admin Url<br />
+                                Checkbox Functionality - Step 02: click to Orders Menu Of Sales<br />
+                                Checkbox Functionality - Step 03: Select 20 Record Per Page<br />
+                                Checkbox Functionality - Step 04: click to Select Visible Link<br />
+                                Checkbox Functionality - Step 05: Verify Select Checkbox<br />
+                                Checkbox Functionality - Step 06: click to Unselect Visible Link<br />
+                                Checkbox Functionality - Step 07: Verify Select Checkbox<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">liveguruLOCAL.Test_Cases_For_User_Role</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_01_Register_Success_To_System
+      </td>
+  <td class="duration">
+    12.852s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Register - Step 01: click to Account Menu<br />
+                                Register - Step 02: click to Register Link<br />
+                                Register - Step 03: enter info<br />
+                                Register - Step 04: click to Register Button<br />
+                                Register - Step 05: verify successful register message<br />
+                                Register - Step 06: verify correct information<br />
+                                Register - Step 07: logout account<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_02_Login_Success_To_System
+      </td>
+  <td class="duration">
+    9.032s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Login - Step 01: open live guru home page<br />
+                                Login - Step 02: click to Account Menu<br />
+                                Login - Step 03: click to log in link<br />
+                                Login - Step 04: enter email address<br />
+                                Login - Step 05: enter password<br />
+                                Login - Step 06: click log in button<br />
+                                Login - Step 07: verify information<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_03_Verify_That_Cost_Of_Product_In_List_Page_And_Details_Page_Are_Equal
+      </td>
+  <td class="duration">
+    8.853s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Cost of Product - Step 01: open live guru home page<br />
+                                Verify Cost of Product - Step 02: click to Mobile Menu<br />
+                                Verify Cost of Product - Step 03: get price of product in Mobile List<br />
+                                Verify Cost of Product - Step 04: click to product, go to product detail page<br />
+                                Verify Cost of Product - Step 05: get price in product detail page<br />
+                                Verify Cost of Product - Step 06: Compare between price of product in List and detail page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_04_Verify_Discount_Coupon_Works_Correctly
+      </td>
+  <td class="duration">
+    13.193s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Discount Coupon - Step 01: open live guru home page<br />
+                                Verify Discount Coupon - Step 02: click to Mobile Menu<br />
+                                Verify Discount Coupon - Step 03: get price of product in Mobile List<br />
+                                Verify Discount Coupon - Step 04: verify the product add to cart successful<br />
+                                Verify Discount Coupon - Step 05: get grand total price before applying coupon codes<br />
+                                Verify Discount Coupon - Step 06: enter coupon code into the field<br />
+                                Verify Discount Coupon - Step 07: click to apply coupon code<br />
+                                Verify Discount Coupon - Step 08: verify discount coupon<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_05_Verify_That_You_Can_Not_Add_More_500_Items_Of_Product
+      </td>
+  <td class="duration">
+    11.681s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Add More 500 Item - Step 01: open live guru home page<br />
+                                Verify Add More 500 Item&nbsp; - Step 02: click to Mobile Menu<br />
+                                Verify Add More 500 Item&nbsp; - Step 03: get price of product in Mobile List<br />
+                                Verify Add More 500 Item&nbsp; - Step 04: verify the product add to cart successful<br />
+                                Verify Add More 500 Item&nbsp; - Step 05: change QTY value to 501<br />
+                                Verify Add More 500 Item&nbsp; - Step 06: click to update button after changing QTY<br />
+                                Verify Add More 500 Item&nbsp; - Step 07: verify error message to announce that you can not add more 500<br />
+                                Verify Add More 500 Item&nbsp; - Step 08: click to empty cart button<br />
+                                Verify Add More 500 Item&nbsp; - Step 09: verify cart empty <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_06_Verify_That_You_Are_Able_To_Compare_Two_Products
+      </td>
+  <td class="duration">
+    11.142s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Compare Two Product - Step 01: open live guru home page<br />
+                                Verify Compare Two Product - Step 02: click to Mobile Menu<br />
+                                Verify Compare Two Product - Step 03: click product 1 to comparison listSony Xperia<br />
+                                Verify Compare Two Product - Step 04: Verify message add Sony Xperia to comparison list successfully<br />
+                                Verify Compare Two Product - Step 05: click product 2 to comparison listSamsung Galaxy<br />
+                                Verify Compare Two Product - Step 06: Verify message add Samsung Galaxy to comparison list successfully<br />
+                                Verify Compare Two Product - Step 07: Click to Compare 2 product Sony Xperia &amp; Samsung Galaxy<br />
+                                Verify Compare Two Product - Step 08: Switch driver to Product Compare Window<br />
+                                Verify Compare Two Product - Step 09: Verify Compare 2 product Sony Xperia &amp; Samsung Galaxy<br />
+                                Verify Compare Two Product - Step 10: Close Compare Product Window<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_07_Verify_That_You_Can_Share_Wishlist_To_Other_People_Using_Email
+      </td>
+  <td class="duration">
+    15.986s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Share Wishlist - Step 01: open live guru home page<br />
+                                Share Wishlist - Step 02: Click to TV Menu<br />
+                                Share Wishlist - Step 03: Click to Add Product to Wishlist<br />
+                                Share Wishlist - Step 04: Verify success message<br />
+                                Share Wishlist - Step 05: Click to Wishlist button to share<br />
+                                Share Wishlist - Step 06: Enter value into Sharing Information<br />
+                                Share Wishlist - Step 07: Click to Share Wishlist button<br />
+                                Share Wishlist - Step 08: Verify Success Message<br />
+                                Share Wishlist - Step 09: Verify quantity of product at My Wishlist Page is + 1<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_08_Verify_That_You_Can_Add_Your_Review
+      </td>
+  <td class="duration">
+    17.824s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Add Your Review - Step 01: open live guru home page<br />
+                                Add Your Review - Step 02: Click To TV Menu<br />
+                                Add Your Review - Step 03: Click Product By Name<br />
+                                Add Your Review - Step 04: Click Add Your Review<br />
+                                Add Your Review - Step 05: Enter empty value into Review Form<br />
+                                Add Your Review - Step 06: Click Submit Review Button<br />
+                                Add Your Review - Step 07: Verify Error message<br />
+                                Add Your Review - Step 08: Enter valid value into Review Form<br />
+                                Add Your Review - Step 09: Click Submit Review Button<br />
+                                Add Your Review - Step 10: Verify Success message<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_10_Verify_Search_Functionality
+      </td>
+  <td class="duration">
+    14.672s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Verify Advanced Search - Step 01: open live guru home page<br />
+                                Verify Advanced Search - Step 02: Click to Advanced Search<br />
+                                Verify Advanced Search - Step 03: Enter Price From &amp; To<br />
+                                Verify Advanced Search - Step 04: Click to Search Button<br />
+                                Verify Advanced Search - Step 05: Verify Result<br />
+                                Verify Advanced Search - Step 05: Verify Result<br />
+                                Verify Advanced Search - Step 05: Verify Result<br />
+                                Verify Advanced Search - Step 06: back to page<br />
+                                Verify Advanced Search - Step 07: Enter Price From &amp; To<br />
+                                Verify Advanced Search - Step 08: Click to Search Button<br />
+                                Verify Advanced Search - Step 09: Verify Result<br />
+                                Verify Advanced Search - Step 09: Verify Result<br />
+                                Verify Advanced Search - Step 09: Verify Result<br />
+                                Verify Advanced Search - Step 09: Verify Result<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

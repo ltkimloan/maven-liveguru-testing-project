@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On Firefox browser"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="220.907">
+  <properties />
+            <testcase name="TC_03_Verify_The_Product_Review_Mechanism" time="220.907" classname="liveguruGRID.liveguruLOCAL.Test_Cases_For_Admin_Role">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="java.util.concurrent.TimeoutException
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8f0f6852-8236-4c7a-9f22-c59288e64d55, clickElement {id=5c1e0750-706e-4f6b-a278-52e4819137f7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:16427, moz:firefoxOptions: {binary: C:\Users\11\.cache\selenium...}, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15428, moz:profile: C:\Users\11\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.9:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on windows (8f0f6852-8236-4c7a-9f22-c59288e64d55)] -&gt; xpath: //a[text()=&apos;Add Your Review&apos;]]
+Session ID: 8f0f6852-8236-4c7a-9f22-c59288e64d55"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8f0f6852-8236-4c7a-9f22-c59288e64d55, clickElement {id=5c1e0750-706e-4f6b-a278-52e4819137f7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:16427, moz:firefoxOptions: {binary: C:\Users\11\.cache\selenium...}, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15428, moz:profile: C:\Users\11\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.9:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on windows (8f0f6852-8236-4c7a-9f22-c59288e64d55)] -> xpath: //a[text()='Add Your Review']]
+Session ID: 8f0f6852-8236-4c7a-9f22-c59288e64d55
+  org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:402)
+  org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+  org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+  org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+  org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+  org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+  commons.BasePage.clickToElement(BasePage.java:151)
+  pageObjects.user.ProductDetailPO.clickToAddYourReview(ProductDetailPO.java:23)
+  liveguruGRID.liveguruLOCAL.Test_Cases_For_Admin_Role.TC_03_Verify_The_Product_Review_Mechanism(Test_Cases_For_Admin_Role.java:148)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:566)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+  org.testng.TestRunner.privateRun(TestRunner.java:848)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+  org.testng.SuiteRunner.run(SuiteRunner.java:336)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+  org.testng.TestNG.runSuites(TestNG.java:1114)
+  org.testng.TestNG.run(TestNG.java:1082)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.util.concurrent.TimeoutException
+  java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+  java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+  org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+  org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+  org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+  org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+  org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+  org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+  commons.BasePage.clickToElement(BasePage.java:151)
+  pageObjects.user.ProductDetailPO.clickToAddYourReview(ProductDetailPO.java:23)
+  liveguruGRID.liveguruLOCAL.Test_Cases_For_Admin_Role.TC_03_Verify_The_Product_Review_Mechanism(Test_Cases_For_Admin_Role.java:148)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:566)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+  org.testng.TestRunner.privateRun(TestRunner.java:848)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+  org.testng.SuiteRunner.run(SuiteRunner.java:336)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+  org.testng.TestNG.runSuites(TestNG.java:1114)
+  org.testng.TestNG.run(TestNG.java:1082)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

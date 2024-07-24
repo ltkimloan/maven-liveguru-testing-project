@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On Firefox browser"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="49.634">
+  <properties />
+  
+  
+            <testcase name="TC_03_Verify_The_Product_Review_Mechanism" time="49.634" classname="liveguruLOCAL.Test_Cases_For_Admin_Role" />
+      
+</testsuite>

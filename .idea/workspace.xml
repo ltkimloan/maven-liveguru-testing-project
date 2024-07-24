@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13940bef-59e6-4cd6-8c84-5b8332a79ef1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2jF81qSS9XZoFuGAoSwrsFrJYUe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.maven-liveguru-testing [clean,test...].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWeb.xml.executor": "Run",
+    "TestNG.D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWebGRID.xml.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5050598",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Automation Testing\04-Maven Hydrid Framework\maven-nopcommerce-testing\dataTest" />
+      <recent name="D:\Automation Testing\04-Maven Hydrid Framework\maven-nopcommerce-testing\src\test\java\liveguruGRID" />
+      <recent name="D:\Automation Testing\04-Maven Hydrid Framework\maven-nopcommerce-testing" />
+      <recent name="D:\Automation Testing\04-Maven Hydrid Framework\maven-nopcommerce-testing\src\test\resources" />
+      <recent name="D:\Automation Testing\04-Maven Hydrid Framework\maven-nopcommerce-testing\src\main\java\testdata\jSonData" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Automation Testing\04-Maven Hydrid Framework\maven-nopcommerce-testing" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reportConfig" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWeb.xml">
+    <configuration name="D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWebGRID.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-liveguru-testing" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RunLiveGuruWebGRID.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWeb.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-liveguru-testing" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RunLiveGuruWeb.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWeb.xml" />
+        <item itemvalue="TestNG.D:/Automation Testing/04-Maven Hydrid Framework/maven-nopcommerce-testing/src/test/resources/RunLiveGuruWebGRID.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
