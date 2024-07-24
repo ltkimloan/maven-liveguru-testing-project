@@ -416,7 +416,7 @@ public class Test_Cases_For_User_Role extends BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void afterClass() {
-//        closeBrowser();
+        closeBrowser();
     }
 
     private WebDriver driver;

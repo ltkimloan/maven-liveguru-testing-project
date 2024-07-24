@@ -406,7 +406,7 @@ public class Test_Cases_For_Admin_Role extends BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void afterClass() {
-//        closeBrowser();
+        closeBrowser();
     }
     private WebDriver driver;
     private HomePageObject homePageObject;
